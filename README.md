@@ -9,4 +9,5 @@ It is meant to work with this Arduino sketch: https://github.com/FatLurch/ARMA_L
 4. Select the "connect" command on the laptop. You should a message indicating if it worked at the bottol left of the game window.
 5. Select "On" to turn the built-in LED on the Arduino on
 6. Select "Off" to turn the built-in LED on the Arduino off
-7. Select "Disconnect" when you're done
+7. Press the button on pin 12 on the Arduino to see a message pop up in the game window
+8. Select "Disconnect" when you're done
