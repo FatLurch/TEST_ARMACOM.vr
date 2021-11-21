@@ -17,7 +17,7 @@ addMissionEventHandler ["ExtensionCallback", {
     };
 }];
 
-com = "COM3";	//##### change this to your appropriate com port #####
+com = "COM13";	//##### change this to your appropriate com port #####
 
 laptop addAction ["List Ports", {systemChat str("Armacom" callExtension "listPorts")}];
 laptop addAction ["Connect", {systemChat str("Armacom" callExtension ["connect", [com]])}];
